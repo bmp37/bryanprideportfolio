@@ -1,0 +1,232 @@
+
+
+#title {
+  background-color: #003626;
+
+}
+
+.container-fluid {
+  padding: 3% 15%;
+
+}
+
+h1 {
+  color: #05e5ca;
+  font-family: 'red Hat text', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-right: 500px;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+h1:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+}
+
+h2 {
+  font-family: "red hat text";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: black;
+
+}
+
+h3 {
+  font-family: "red hat Text";
+  font-weight: bold;
+  color: #fff;
+}
+h4 {
+  color: gray;
+
+}
+h5 {
+
+}
+hr {
+  border: dotted grey 6px;
+  border-bottom: none;
+
+}
+em {
+  color: black;
+}
+p {
+  color: #fff;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 1rem;
+}
+
+/* button */
+.btn {
+  margin: 5px 10px 0px;
+}
+
+/* hover_effect */
+.hover_effect {
+  height:95%;
+  width: auto;
+}
+
+.hover_effect:hover {
+  height: 100%;
+  width: auto;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: lighter;
+}
+
+.navbar-nav {
+  padding-left: 500px;
+}
+
+/* feature section */
+#features {
+  padding: 7% 15%;
+  background-color: black;
+}
+
+.Feature-box {
+    text-align: center;
+    padding: 5%;
+    background-color: black;
+
+}
+
+.icon {
+  color: #05e5ca;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #7af0be;
+}
+
+#Education {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #7af0be;
+  color: #fff;
+}
+.profile {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+/* Skill */
+
+#Skills {
+  background-color: #7af0be;
+  text-align: center;
+  padding: 3%;
+}
+.skill-logo {
+    width: 200px;
+    height: 200px;
+
+}
+/* Education */
+#Education {
+  position: relative;
+  text-align: center;
+  background-color: grey;
+}
+/* project */
+#Projects {
+  text-align: center;
+  background-color: #138D75;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: grey;
+}
+
+/* contact */
+#contact {
+  background-color: #0e7c01;
+  text-align: center;
+}
+
+/* javascript effect */
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 1.6;
+}
+
+#footer {
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+  background-color: #003626;
+}
+.card-body{
+  background-color:  #003626;
+}
+@media (max-width: 1010px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    width: 60%;
+    padding: 60px;
+}
+
+.btn {
+   background: #7AF0BE;
+   background-image: -webkit-linear-gradient(top, #7AF0BE, #003626);
+   background-image: -moz-linear-gradient(top, #7AF0BE, #003626);
+   background-image: -ms-linear-gradient(top, #7AF0BE, #003626);
+   background-image: -o-linear-gradient(top, #7AF0BE, #003626);
+   background-image: -webkit-gradient(to bottom, #7AF0BE, #003626);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #000000;
+   font-family: Brush Script MT;
+   font-size: 21px;
+   font-weight: 100;
+   padding: 16px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #0B0B0B 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}

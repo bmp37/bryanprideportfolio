@@ -1,0 +1,96 @@
+body {
+  background-color: #9EDE73;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #365e1e;
+}
+
+
+.text {
+  color: #365e1e;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* head */
+#header {
+  padding: 100px;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  padding-left: 300px;
+}
+
+.kale {
+  width: 200px;
+  margin: 0 250px 0;
+}
+
+.WIK {
+  width: 500px;
+  height: 300px;
+}
+
+/* }recipe */
+#Recipes {
+  text-align: center;
+  background-color: #87e2b8;
+}
+
+#carouselExampleFade {
+  margin-left: 350px;
+}
+
+.menu {
+  padding-bottom: 40px;
+}
+
+.image {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.image2 {
+  width: 200px;
+  height: 200px;
+  padding: 3px;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding-top: 100px;
+  background-color: #87e2b8;
+}
+
+#contact {
+  background-color: #0e7c01;
+  text-align: center;
+}
+
+#footer {
+  padding-top: 100px;
+  text-align: center;
+}
