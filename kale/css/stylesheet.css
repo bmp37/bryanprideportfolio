@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6, p {
   width: 200px;
   margin: 0 250px 0;
 }
+.Tindog {
+  width: 100px;
+  margin: 0 250px 0;
+}
 
 .WIK {
   width: 500px;
@@ -88,6 +92,12 @@ h1, h2, h3, h4, h5, h6, p {
 #contact {
   background-color: #0e7c01;
   text-align: center;
+}
+
+.mb-3 {
+  width: 500px;
+  text-align: center;
+  margin: 0 400px;
 }
 
 #footer {
