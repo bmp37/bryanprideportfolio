@@ -184,13 +184,15 @@ p {
   text-align: center;
   background-color: #138D75;
 }
-.kale {
-  padding-bottom: 20px;
+.p1 {
+  border: 5px;
+  padding: 5px;
+  width: 250px;
+
+
 }
 
-.TinDog {
-  padding: 0 18px;
-}
+
 /* Pricing section */
 
 #pricing {
@@ -207,9 +209,10 @@ p {
 }
 .mb-3 {
   width: 500px;
-  text-align: center;
   margin: 0 400px;
+
 }
+
 /* javascript effect */
 
 .ball {
@@ -227,7 +230,7 @@ p {
 .card-body{
   background-color:  #003626;
 }
-@media (max-width: 1010px) {
+@media (max-width: 600px) {
   #title {
     text-align: center;
   }
