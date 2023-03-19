@@ -183,11 +183,13 @@ p {
 #Projects {
   text-align: center;
   background-color: #138D75;
+  padding-bottom: 70px;
 }
 .p1 {
   border: 5px;
   padding: 5px;
   width: 250px;
+  padding-bottom: 40px;
 
 
 }
